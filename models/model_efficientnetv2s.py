@@ -3,7 +3,15 @@ import tensorflow as tf
 from utils.preprocessing import preprocess
 
 model = tf.keras.models.load_model('saved_models/efficientnetv2s.keras')
-class_names = ["akiec", "bcc", "bkl", "df", "mel", "nv", "vasc"]
+class_names = [
+    "Actinic Keratosis (AK)",
+    "Basal Cell Carcinoma (BCC)",
+    "Benign Keratosis Lesions  (BKL)",
+    "Dermatofibroma (DF)",
+    "Melanoma (MEL)",
+    "Melanocytic Nevus (NV)",
+    "Vascular Lesions (VASC)"
+]
 
 def preprocess_image(image):
     preprocessed = preprocess(image)
