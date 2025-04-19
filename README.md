@@ -1,7 +1,9 @@
 # 🩺 MultiClass Skin Disease Classification
 
-A deep learning-based web application for classifying skin diseases from lesion images using multiple state-of-the-art CNN models with preprocessing and visual performance analysis.   
+A deep learning-based web application for classifying skin diseases from lesion images using multiple state-of-the-art CNN models with preprocessing and visual performance analysis.  
+
 Video link [https://drive.google.com/file/d/1ljeRBnuP5HUiupC1hOVyxMMJayxR8J5g/view?usp=drive_link](https://drive.google.com/file/d/1q-4zpYVMbxuX5QPBRzSSjd4raeVlAThq/view?usp=drive_link)
+
 ---
 
 ## 🔍 Project Overview
